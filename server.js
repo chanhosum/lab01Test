@@ -11,7 +11,7 @@ var options = {
     path: '/data/2.5/weather?q=Tokyo,jp&units=metric',
     method: 'GET'
 };
-
+git commit –m "added my API key to server.js"
 app.use(cors());
 
 app.set('view engine', 'ejs');
@@ -73,7 +73,7 @@ function getWeatherDetails(callback) {
 		});
 
 		wres.on('error',function(e) {
-			console.log('Problem with request: ' + e.message);
+			console.log('Problem with reqsdfdfuest: ' + e.message);
 		});
 
 		wres.on('end',function(chunk) {
