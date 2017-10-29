@@ -11,7 +11,7 @@ var options = {
     path: '/data/2.5/weather?q=Tokyo,jp&units=metric',
     method: 'GET'
 };
-git commit –m "added my API key to server.js"
+
 app.use(cors());
 
 app.set('view engine', 'ejs');
