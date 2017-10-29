@@ -73,7 +73,7 @@ function getWeatherDetails(callback) {
 		});
 
 		wres.on('error',function(e) {
-			console.log('Problem with reqsdfdfuest: ' + e.message);
+			console.log('Problem with reqsdfddddfuest: ' + e.message);
 		});
 
 		wres.on('end',function(chunk) {
